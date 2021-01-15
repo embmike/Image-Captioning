@@ -5,3 +5,4 @@ train_loss.txt
 training_log.txt
 val_loss.txt
 original_notebooks/
+.ipynb_checkpoints/
