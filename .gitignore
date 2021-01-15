@@ -1,0 +1,5 @@
+models/decoder*.pkl
+models/encoder*.pkl
+vocab.pkl
+*.txt
+original_notebooks/
