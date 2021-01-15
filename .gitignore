@@ -1,5 +1,7 @@
 models/decoder*.pkl
 models/encoder*.pkl
 vocab.pkl
-*.txt
+train_loss.txt
+training_log.txt
+val_loss.txt
 original_notebooks/
