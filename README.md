@@ -7,16 +7,16 @@ The encoder is a pre-trained Resnet-152. The classification layer has been repla
 
 [COCO](https://cocodataset.org/#home), The Microsoft Common Objects in COntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.
 
-![Image Captioning CNN-RNN model](images/encoder-decoder.png))
+![Image Captioning CNN-RNN model](images/encoder-decoder.png)
     
     
 ### Examples
 
-+ **A heerd of sheeps**
-![Cascade Classifiers Images](/images-with-caption/a-herd-of-sheeps.PNG "A heerd of sheeps")   
++ **A heerd of sheeps**   
+  ![Cascade Classifiers Images](/images-with-caption/a-herd-of-sheeps.PNG "A heerd of sheeps")   
 
-+ **A plane on the runway**
-![CNN Images](/images-with-caption/a-plane-on-the-runway.PNG "A plane on the runway")
++ **A plane on the runway**   
+  ![CNN Images](/images-with-caption/a-plane-on-the-runway.PNG "A plane on the runway")
    
    
 ## Important files
