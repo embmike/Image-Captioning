@@ -5,6 +5,8 @@ The encoder is a pre-trained Resnet-152. The classification layer has been repla
 
 [PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network.
 
+[Restnet-152](https://www.kaggle.com/pytorch/resnet152) is a pre-trained neural convolution network to recognize objects in images. The network has an error rate of 3.57% and is therefore better than a human.
+
 [COCO](https://cocodataset.org/#home), The Microsoft Common Objects in COntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.
 
 ![Image Captioning CNN-RNN model](images/encoder-decoder.png)
