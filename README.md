@@ -1,37 +1,41 @@
-# Facial Keypoint Detection
-This project is part of my computer vision course of[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). A neural convolution network recognizes faces in images based on learned facial keypoints. 
-These keypoints mark important areas of the face: the eyes, corners of the mouth, the nose, etc. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. 
+# Image Captioning
+This project is part of my computer vision course of[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). The model recognizes objects in images and creates captions for them. The model consists of a Covolutional Neural Network (CNN: Encoder) and a Long Short-Term Memory Network (LSTM: Decoder). The encoder recognizes objects in images and outputs image features to the decoder. The decoder creates a caption based on the image features and its memory.
 
-Likewise the computer vision method hair feature-based cascade uses these features, see [OpenCV-Python tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
+The encoder is a pre-trained Resnet-152. The classification layer has been replaced by a new feature layer. Both networks use the COCO image database for training. 
 
 [PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network.
+
+[COCO](https://cocodataset.org/#home), The Microsoft Common Objects in COntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.
+
+![Image Captioning CNN-RNN model](images/encoder-decoder.png))
     
     
 ### Examples
 
-+ **Detect all faces using Haar Cascade Classifiers using OpenCV**
-![Cascade Classifiers Images](/output_images/cascade_classifier.png "Detect all faces using Haar Cascade Classifiers using OpenCV")   
++ **A heerd of sheeps**
+![Cascade Classifiers Images](/images-with-caption/a-herd-of-sheeps.PNG "A heerd of sheeps")   
 
-+ **Detect facial keypoint with a Convolutional Neural Network**
-![CNN Images](/output_images/cnn_persons.png "Detect facial keypoint with a Convolutional Neural Network")
++ **A plane on the runway**
+![CNN Images](/images-with-caption/a-plane-on-the-runway.PNG "A plane on the runway")
    
    
 ## Important files
-- **1_Load_and_Visualize_Data.ipynb** : Learn to create a data loader and visualize the data
-- **data_load.py** : The Data loader
-- **2_Define_the_Network_Architecture.ipynb** : Load, train and validate the convolutional neural network.
-- **models.py** : The Convolutional neural network
-- **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Test and compare the model with the cascade classifier.
+- **0_Dataset.ipynb** : Explore this dataset, in preparation for the project.
+- **1_Preliminaries.ipynb** : Learn how to load and pre-process data from the COCO dataset.
+- **data_loader_val.py** : The Data loader
+- **2_Training.ipynb** : Load, train and validate the convolutional neural network.
+- **models.py** : Train the CNN-RNN model.
+- **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Use the trained model to generate captions for images.
     
     
 ## Installation and usage
 Clone the repository
 ```sh
 $ cd <your workspace folder>
-$ git clone https://github.com/embmike/Facial-Keypoint-Detection.git
+$ https://github.com/embmike/Image-Captioning.git
 ```
 
-You can use the code for example on your computer with [Anaconda](https://www.anaconda.com/) or via cloud computing with [Google Colaboratory](https://colab.research.google.com/)
+You can use the code for example on your computer with [Anaconda](https://www.anaconda.com/) or via cloud computing with [Google Colaboratory](https://colab.research.google.com/). **To train the model you need a GPU.**
     
     
 ## Licence
