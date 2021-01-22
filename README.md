@@ -12,8 +12,8 @@ The encoder is a pre-trained Resnet-152. The classification layer has been repla
     
 ### Examples
 
-+ **A heerd of sheeps**   
-  ![Cascade Classifiers Images](/images-with-caption/a-herd-of-sheeps.PNG "A heerd of sheeps")   
++ **A herd of sheeps**   
+  ![Cascade Classifiers Images](/images-with-caption/a-herd-of-sheeps.PNG "A herd of sheeps")   
 
 + **A plane on the runway**   
   ![CNN Images](/images-with-caption/a-plane-on-the-runway.PNG "A plane on the runway")
@@ -22,7 +22,7 @@ The encoder is a pre-trained Resnet-152. The classification layer has been repla
 ## Important files
 - **0_Dataset.ipynb** : Explore this dataset, in preparation for the project.
 - **1_Preliminaries.ipynb** : Learn how to load and pre-process data from the COCO dataset.
-- **data_loader_val.py** : The Data loader
+- **data_loader_val.py** : The Data loader.
 - **2_Training.ipynb** : Load, train and validate the convolutional neural network.
 - **models.py** : Train the CNN-RNN model.
 - **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Use the trained model to generate captions for images.
