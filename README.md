@@ -3,7 +3,7 @@ This project is part of my computer vision course of[ Udacity](https://www.udaci
 
 The encoder is a pre-trained Resnet-152. The classification layer has been replaced by a new feature layer. Both networks use the COCO image database for training. 
 
-[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network.
+[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network lstm network.
 
 [Restnet-152](https://www.kaggle.com/pytorch/resnet152) is a pre-trained neural convolution network to recognize objects in images. The network has an error rate of 3.57% and is therefore better than a human.
 
