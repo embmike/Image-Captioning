@@ -3,11 +3,11 @@ This project is part of my computer vision course of[ Udacity](https://www.udaci
 
 The encoder is a pre-trained Resnet-152. The classification layer has been replaced by a new feature layer. Both networks use the COCO image database for training. 
 
-[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network lstm network.
+[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the **C**onvolutional **N**eural **N**etwork and **L**ong **S**hort **T**erm **M**emory network.
 
-[Restnet-152](https://www.kaggle.com/pytorch/resnet152) is a pre-trained neural convolution network to recognize objects in images. The network has an error rate of 3.57% and is therefore better than a human.
+[Restnet-152](https://www.kaggle.com/pytorch/resnet152) is a pre-trained convolutional neral network to recognize objects in images. The network has an error rate of 3.57% and is therefore better than a human.
 
-[COCO](https://cocodataset.org/#home), The Microsoft Common Objects in COntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.
+[COCO](https://cocodataset.org/#home), The Microsoft **C**ommon **O**bjects in **CO**ntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.
 
 ![Image Captioning CNN-RNN model](images/encoder-decoder.png)
     
@@ -24,9 +24,9 @@ The encoder is a pre-trained Resnet-152. The classification layer has been repla
 ## Important files
 - **0_Dataset.ipynb** : Explore this dataset, in preparation for the project.
 - **1_Preliminaries.ipynb** : Learn how to load and pre-process data from the COCO dataset.
-- **data_loader_val.py** : The Data loader.
+- **data_loader_val.py** : The data loader.
 - **2_Training.ipynb** : Load, train and validate the convolutional neural network.
-- **models.py** : Train the CNN-RNN model.
+- **models.py** : The CNN-LSTM model.
 - **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Use the trained model to generate captions for images.
     
     
